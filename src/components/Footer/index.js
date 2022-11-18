@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
-import { FooterContainer, StyledRow, StyledCol, FooterHeader, SocialIcons, Text, SocialDev ,AddersText,CopyRight,FooterCard} from './styles'
+import { FooterContainer, StyledRow, StyledCol, FooterHeader, SocialIcons, Text, SocialDev ,AddersText,CopyRight,FooterCard,Contact} from './styles'
 const Footer = () => {
     return (
         <>
@@ -12,7 +12,7 @@ const Footer = () => {
                         <FooterHeader>Our Links</FooterHeader>
                         <center><hr style={{width:'120px', border:'1.5px solid #ffffff',borderRadius:'4px'}} /></center>
                         <p><a href="https://www.bsp4ts.com/" className='links'>BSP Telangana</a></p>
-                        <p><a href="https://www.tgtwgurukulam.telangana.gov.in/index.html" className='links'>Gurukulam Swaeroes</a></p>
+                      
     
                         </FooterCard>
                     </StyledCol>
@@ -27,7 +27,7 @@ const Footer = () => {
 								</a>
                             </SocialIcons>
                             <SocialIcons>
-							<a href=" " className='socialicon'>
+							<a href="https://www.facebook.com/RSPGIRIJANASENA/" className='socialicon'>
                                 <BsFacebook size={20}></BsFacebook>
                                 <Text>Facebook</Text>
 								</a>
@@ -43,10 +43,15 @@ const Footer = () => {
                     </StyledCol>
                     <StyledCol md={4}>
                         <FooterCard>
-                        <FooterHeader>Adders</FooterHeader>
+                        <FooterHeader>Address</FooterHeader>
                         <center><hr style={{width:'120px', border:'1.5px solid #ffffff',borderRadius:'4px'}} /></center>
 <AddersText>Flat No. 301, H, No ;10-2-353/354,AJ Hamara Residency,Asifnagar X Roads, Vijayanagar Colony, Near
-Masab Tank, Hyderabad</AddersText>
+Masab Tank, Hyderabad
+</AddersText>
+<Contact>
+<a className='contact' href="mailto:rspgirijanasena@gmail.com">Mail:- rspgirijanasena@gmail.com</a>
+<a className='contact' href="tel:91 9398749941">Cell:- (+91)-9398749941 </a>
+</Contact>
 </FooterCard>
                     </StyledCol>
                 </StyledRow>

@@ -12,7 +12,7 @@ text-align:center;
 margin-top:40px;
 .images{
     width:200px;
-    height:200px;;
+    height:200px;
     transition: 1s ease;
     clip-path:circle();
 }

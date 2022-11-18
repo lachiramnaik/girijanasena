@@ -20,7 +20,7 @@ margin:15px 10px;
    padding:10px;
 background:#ffffff1c;
 border-radius:10px;
-height:200px;
+min-height:250px;
 .links{
 	text-decoration:none;
 	color:white;
@@ -65,6 +65,16 @@ padding-left:12px;
 `;
 export const AddersText = styled.div`
 font-size:15px;
+`;
+export const Contact = styled.div`
+margin-top:10px;
+display:flex;
+flex-direction:column;
+.contact{
+font-size:15px;
+color:#ffffff;
+text-decoration:none;
+}
 `;
 export const CopyRight = styled.div`
 text-align:center;

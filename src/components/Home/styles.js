@@ -5,6 +5,13 @@ margin-left:0;
 width:100%;
 display:flex;
 justify-content:center;
+&.row-2{
+    margin-top:50px;
+    @media only screen and (max-width: 550px) {
+        margin-top:30px;
+        height:auto;
+    }
+}
 `;
 export const StyledCol=styled(Col)`
 &.sectiononecol{
@@ -15,7 +22,7 @@ export const StyledCol=styled(Col)`
     border:none;
     padding:10px;
     border-radius:0px;
-    min-height:500px;
+    min-height:600px;
     @media only screen and (max-width: 550px) {
         margin-top:40px;
         height:auto;
@@ -143,10 +150,19 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 export const CardImage=styled.div`
 display:flex;
 justify-content:center;
+.achivements-image{
+    width:250px;
+    height:250px;
+clip-path:circle();
+transition: 1s ease;
+:hover{
+transform: scale(1.1);
+transition: 1s ease; 
+}
+}
 .image{
-width:80%;
+width:100%;
 height:30vh;
-
 transition: 1s ease;
 }
 `;

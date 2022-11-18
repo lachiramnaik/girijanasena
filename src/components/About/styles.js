@@ -9,6 +9,11 @@ justify-content:center;
 background:#ffffff;
 text-align:center;
 }
+&.commands{
+    background:#ffffff;
+    border-style: dashed;
+    border-radius:20px;
+}
 .card{
     border:none;
     padding:10px;
@@ -72,6 +77,9 @@ transition: 1s ease;
     }
 `;
 export const  CardTwo=styled.div`
+margin:40px 0px 20px 0px;
+`;
+export const  CardThree=styled.div`
 margin:40px 0px 20px 0px;
 `;
 export const CardOneContent=styled.div`

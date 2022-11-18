@@ -160,7 +160,7 @@ export const Membership = styled.div`
  }
 height:40px;
 position: fixed;
-/* width:180px; */
+
 padding:10px;
 background:#22409a;
 display:flex;
@@ -177,7 +177,7 @@ align-items:center;
     transition:0.5s ease;
   }
   @media only screen and (max-width: 550px) {
-    bottom: 300px;
+    bottom: 100px;
   }
 `;
 
