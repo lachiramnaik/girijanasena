@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
-// import rsp from '../../images/home/girijanasena.mp4'
+import rsp from '../../images/home/girijanasena.mp4'
 import {  Link } from "react-router-dom";
 import Poorna from '../../images/home/poorna.jpeg'
 import Sevalal from '../../images/home/sevalal.png'
@@ -16,9 +16,9 @@ const Home = () => {
   return (
    <>
    <Mainvideo>
-{/* <video autoPlay muted loop className='video-1'>
+<video autoPlay muted loop className='video-1'>
     <source src={rsp} type="video/mp4"></source>
-</video> */}
+</video>
 <MainvideoContent>
 <h1 className='kotation'>జై భీం, జై సేవలాల్, జై కొమరం భీం, జై భారత్</h1>
 	<Images >
