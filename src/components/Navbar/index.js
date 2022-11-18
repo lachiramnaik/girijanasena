@@ -81,7 +81,7 @@ const Navbar = () => {
   <MobileContent> <Link to="/culture" className='link' onClick={handleClose}>Culture</Link></MobileContent>
               <MobileContent><Link to="/calender" className='link' onClick={handleClose}>Calender</Link></MobileContent>
 </div>
-<WebContent><Link to="/team" className='link'>Team</Link></WebContent>
+<MobileContent><Link to="/team" className='link' onClick={handleClose}>Team</Link></MobileContent>
               <MobileContent><Link to="/gallery" className='link' onClick={handleClose}>Gallery</Link></MobileContent>
               <MobileContent><Link to="/Contact" className='link' onClick={handleClose}>Contact Us</Link></MobileContent>
             </MobileMenu>
