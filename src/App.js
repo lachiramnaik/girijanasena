@@ -13,9 +13,11 @@ import Contact from './components/Contact';
 import Culture from './components/Culture';
 import Calender from './components/Calender';
 import Membership from './components/Membership';
+import Launching from './components/Launching';
 const App = () => {
   return (
     <>
+    
     <BrowserRouter>
     <Navbar/>
         <Routes>
@@ -26,11 +28,9 @@ const App = () => {
           <Route path="/gallery" element={<Gallary />} />
           <Route path="/culture" element={<Culture />} />
           <Route path="/calender" element={<Calender />} />
-		  <Route path="/membership" element={<Membership/>} />
+		      <Route path="/membership" element={<Membership/>} />
           <Route path="*" element={<Nodatapage/>} />
-		 
         </Routes>
-
         <Footer/>
       </BrowserRouter>
      </>

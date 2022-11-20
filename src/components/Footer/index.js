@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
 import { FooterContainer, StyledRow, StyledCol, FooterHeader, SocialIcons, Text, SocialDev ,AddersText,CopyRight,FooterCard,Contact} from './styles'
 const Footer = () => {
@@ -12,6 +13,7 @@ const Footer = () => {
                         <FooterHeader>Our Links</FooterHeader>
                         <center><hr style={{width:'120px', border:'1.5px solid #ffffff',borderRadius:'4px'}} /></center>
                         <p><a href="https://www.bsp4ts.com/" className='links'>BSP Telangana</a></p>
+                        <p><Link to="/calender" className='links'>Calender</Link></p>
                       
     
                         </FooterCard>
@@ -50,7 +52,7 @@ Masab Tank, Hyderabad
 </AddersText>
 <Contact>
 <a className='contact' href="mailto:rspgirijanasena@gmail.com">Mail:- rspgirijanasena@gmail.com</a>
-<a className='contact' href="tel:91 9398749941">Cell:- (+91)-9398749941 </a>
+<a className='contact' href="tel:91 9502009941">Cell:- (+91)-9502009941 </a>
 </Contact>
 </FooterCard>
                     </StyledCol>

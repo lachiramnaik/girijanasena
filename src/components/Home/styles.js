@@ -66,13 +66,13 @@ export const MainvideoContent=styled.div`
  position: relative;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     color: #f1f1f1;
     justify-content: center;
     text-align: center;
 	align-items:center;
     top: 0;
-    background: #0303037e;
+    background: #030303a9;
     .img{
       
 		margin-top:60px;
@@ -83,7 +83,8 @@ export const MainvideoContent=styled.div`
     }
     .text{
         margin-top:30px;
-        font-family:Apple Chancery;
+        /* font-family:Apple Chancery; */
+        font-family: 'georgia';
     }
 	.kotation{
 	margin-top:200px;
@@ -92,7 +93,7 @@ export const MainvideoContent=styled.div`
 	@media only screen and (max-width: 680px) {
         .text{
         margin-top:20px;
-        font-family:Apple Chancery;
+        
     }
 	.img{
         margin-top: 40px;

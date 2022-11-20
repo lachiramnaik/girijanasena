@@ -1,5 +1,4 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import rsp from '../../images/home/girijanasena.mp4'
 import { Link } from "react-router-dom";
@@ -29,7 +28,7 @@ const Home = () => {
             <img src={Sevalal} alt='' className='img'></img>
             <img src={Komaram} alt='' className='img'></img>
           </Images>
-          <h1 className='text'>Rsp Girijanasena</h1>
+          <h1 className='text'>RSP GIRIJANA SENA</h1>
         </MainvideoContent>
       </Mainvideo>
 
@@ -90,13 +89,11 @@ const Home = () => {
           <StyledCol md={4}>
             <Card className='card'>
               <Card.Body>
-                <CardImage> <img src={Sindhu} alt='' className='achivements-image'></img></CardImage>
+              <CardImage> <img src={Shamsunder} alt='' className='achivements-image'></img></CardImage>
                 <Card.Text className='text'>
-                  <span>Gugulothu Sindhu </span>Place of Birth: Suryapet District, Chivvemla Mandal, Panwa Banda Thanda,
-                  Parents: Sushila-Mansingh,
-                  Born:2002/ March/05,
-                  Gugulothu Sindhu is a tribal child who comes from a remote village where he is not familiar with the world. Telangana State Aviation Academy offers Integrated M.Sc and Aircraft Maintenance Engineering course.
+                  <span>Shamsunder palthavath</span>  place of birth Bhoothpur Mandal Mahabubnagar district, parents Ramdas naik-Bujjibai Born-1997-August-28 First Banjara Swaero Hero He acted in Police interrogation movie As a hero In Tellywood film industry
                 </Card.Text>
+              
               </Card.Body>
             </Card>
           </StyledCol>
@@ -117,9 +114,12 @@ const Home = () => {
           <StyledCol md={4}>
             <Card className='card'>
               <Card.Body>
-                <CardImage> <img src={Shamsunder} alt='' className='achivements-image'></img></CardImage>
+              <CardImage> <img src={Sindhu} alt='' className='achivements-image'></img></CardImage>
                 <Card.Text className='text'>
-                  <span>Shamsunder palthavath</span>  place of birth Bhoothpur Mandal Mahabubnagar district, parents Ramdas naik-Bujjibai Born-1997-August-28 First Banjara Swaero Hero He acted in Police interrogation movie As a hero In Tellywood film industry
+                  <span>Gugulothu Sindhu </span>Place of Birth: Suryapet District, Chivvemla Mandal, Panwa Banda Thanda,
+                  Parents: Sushila-Mansingh,
+                  Born:2002/ March/05,
+                  Gugulothu Sindhu is a tribal child who comes from a remote village where he is not familiar with the world. Telangana State Aviation Academy offers Integrated M.Sc and Aircraft Maintenance Engineering course.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -130,7 +130,7 @@ const Home = () => {
               <Card.Body>
                 <CardImage> <img src={Babunaik} alt='' className='achivements-image'></img></CardImage>
                 <Card.Text className='text'>
-                  <span>sabavat Babunaik</span>father name S kishan mother name Devi village Devula Thanda Achampet mandal Nagarkurnool dist (nalamalla forest area)played target ball international in Bangladesh silver medal
+                  <span>Sabavat Babunaik</span> father name S kishan mother name Devi village Devula Thanda Achampet mandal Nagarkurnool dist (nalamalla forest area)played target ball international in Bangladesh silver medal
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -202,7 +202,7 @@ const Home = () => {
         </SectionOneHeader>
         <StyledRow>
           <StyledCol md={4}>
-            <Card className='card'>
+            <Card className='culture-card'>
               <Card.Body>
                 <CardImage> <img src={Sevalal} alt='' className='image'></img></CardImage>
                 <Card.Text className='text'>
@@ -212,7 +212,7 @@ const Home = () => {
             </Card>
           </StyledCol>
           <StyledCol md={4}>
-            <Card className='card'>
+            <Card className='culture-card'>
               <Card.Body>
                 <CardImage> <img src={Gussadi} alt='' className='image'></img></CardImage>
                 <Card.Text className='text'>
@@ -222,7 +222,7 @@ const Home = () => {
             </Card>
           </StyledCol>
           <StyledCol md={4}>
-            <Card className='card'>
+            <Card className='culture-card'>
               <Card.Body>
                 <CardImage> <img src={Nagoba} alt='' className='image'></img></CardImage>
                 <Card.Text className='text'>
