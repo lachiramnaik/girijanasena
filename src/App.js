@@ -13,7 +13,7 @@ import Contact from './components/Contact';
 import Culture from './components/Culture';
 import Calender from './components/Calender';
 import Membership from './components/Membership';
-import Launching from './components/Launching';
+
 const App = () => {
   return (
     <>
