@@ -24,7 +24,7 @@ const Launching = ({setState}) => {
     <StyledRow >
         <StyledCol md={8}>
             <Image> <img src={Rsp} alt='' className='img'></img></Image>
-            <Content>It gives us great pleasure to welcome such a distinguished individual as our Chief Guest R S Praveen Kumar sir tonight for the launch of the Rsp Girijana Sena website. So, Sir, please accept our greetings on behalf of everyone present.</Content>
+            <Content>It gives us great pleasure to welcome such a distinguished individual as our Chief Guest R S Praveen Kumar sir tonight for the launch of the RSP GIRIJANA SENA website. So, Sir, please accept our greetings on behalf of everyone present.</Content>
             <center>
             {loader==='' && <Button onClick={handleSubmit}>Launch Rsp Girijana Sena Website</Button>}
             {loader==='wait' && <Loading/>}

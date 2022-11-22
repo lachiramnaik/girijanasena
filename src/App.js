@@ -13,15 +13,15 @@ import Contact from './components/Contact';
 import Culture from './components/Culture';
 import Calender from './components/Calender';
 import Membership from './components/Membership';
-import Launching from './components/Launching';
-import Wishes from './components/Wishes';
+// import Launching from './components/Launching';
+// import Wishes from './components/Wishes';
 const App = () => {
-  const [state,setState] = useState('launching');
+  // const [state,setState] = useState('launching');
   return (
     <>
-    {state==='launching' && <Launching setState={setState}/>}
+    {/* {state==='launching' && <Launching setState={setState}/>}
     {state==='wishes' && <Wishes setState={setState}/>}
-    {state==='launched' && 
+    {state==='launched' &&  */}
     <BrowserRouter>
     <Navbar/>
         <Routes>
@@ -37,7 +37,7 @@ const App = () => {
         </Routes>
         <Footer/>
       </BrowserRouter>
-      }
+      {/* } */}
     
      </>
   
