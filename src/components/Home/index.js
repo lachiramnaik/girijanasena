@@ -22,7 +22,7 @@ const Home = () => {
           <source src={rsp} type="video/mp4"></source>
         </video>
         <MainvideoContent>
-          <h1 className='kotation'>జై భీం, జై సేవలాల్, జై కొమరం భీం, జై భారత్</h1>
+          <h1 className='kotation'>జై భీం, జై సేవాలాల్, జై కొమరం భీం, జై భారత్</h1>
           <Images >
             <img src={Ambedkhar} alt='' className='img'></img>
             <img src={Sevalal} alt='' className='img'></img>
@@ -77,8 +77,8 @@ const Home = () => {
               <Card.Body>
                 <CardImage> <img src={Poorna} alt='' className='achivements-image'></img></CardImage>
                 <Card.Text className='text'>
-                  <span>Malavath Purna</span> Place of Birth: Pakhal Village, Sirikonda Mandal, Nizamabad District,
-                  Parents: Lakshmi-Devadas,
+                  <span>Poorna Malavath</span> Place of Birth: Pakala Village, Sirikonda Mandal, Nizamabad District,
+                  Parents: Laxmi -Devidas,
                   Born:2000/January/10,
                   On May 25, 2014, she became the youngest girl (13 years 11 months) to climb Mount Everest, the highest mountain in Asia.
                   A mountaineer, she has climbed the seven highest peaks in the seven continents of the world.
@@ -91,7 +91,7 @@ const Home = () => {
               <Card.Body>
               <CardImage> <img src={Shamsunder} alt='' className='achivements-image'></img></CardImage>
                 <Card.Text className='text'>
-                  <span>Shamsunder palthavath</span>  place of birth Bhoothpur Mandal Mahabubnagar district, parents Ramdas naik-Bujjibai Born-1997-August-28 First Banjara Swaero Hero He acted in Police interrogation movie As a hero In Tellywood film industry
+                  <span>Shamsunder Palthavath</span>  Place of birth Bhoothpur Mandal Mahabubnagar district, parents Ramdas naik-Bujjibai Born-1997-August-28 First Banjara Swaero Hero He acted in Police interrogation movie As a hero In Tellywood film industry
                 </Card.Text>
               
               </Card.Body>
@@ -102,7 +102,7 @@ const Home = () => {
               <Card.Body>
                 <CardImage> <img src={Anitha} alt='' className='achivements-image'></img></CardImage>
                 <Card.Text className='text'>
-                  <span>Kunjam Anita </span>Place of Birth: Raianipeta,
+                  <span>Kunja Anita </span>Place of Birth: Raianipeta, Bhadradri-kothagudem disttrict,
                   Far away from the modern world, somewhere in the forest, a tribal child, Kunjam Anita, is studying in the Miranda House of Delhi University, the capital of our country, from Rayanipeta, where they continue to live on resources. There is no drinking water in her house.
                 </Card.Text>
               </Card.Body>
@@ -116,8 +116,8 @@ const Home = () => {
               <Card.Body>
               <CardImage> <img src={Sindhu} alt='' className='achivements-image'></img></CardImage>
                 <Card.Text className='text'>
-                  <span>Gugulothu Sindhu </span>Place of Birth: Suryapet District, Chivvemla Mandal, Panwa Banda Thanda,
-                  Parents: Sushila-Mansingh,
+                  <span>Gugulothu Sindhu </span>Place of Birth: Suryapet District, Chivvemla Mandal, Pandi Banda Thanda,
+                  Parents: Susheela-Mansingh,
                   Born:2002/ March/05,
                   Gugulothu Sindhu is a tribal child who comes from a remote village where he is not familiar with the world. Telangana State Aviation Academy offers Integrated M.Sc and Aircraft Maintenance Engineering course.
                 </Card.Text>

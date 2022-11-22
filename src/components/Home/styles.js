@@ -58,7 +58,7 @@ height: 100vh;
     left: 0;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     pointer-events: none;
     }
 `;
@@ -72,7 +72,7 @@ export const MainvideoContent=styled.div`
     text-align: center;
 	align-items:center;
     top: 0;
-    background: #030303a9;
+    background: #03030394;
     .img{
       
 		margin-top:60px;
